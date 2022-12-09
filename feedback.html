@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body background="https://img.freepik.com/free-vector/yellow-parchment_53876-91513.jpg?t=st=1669391946~exp=1669392546~hmac=9655f969b450eee72984efa53e59852772742ae4a5d3a8d65ee602cb5da25986">
+    <CENTER><h2>WE APPRECIATE YOUR FEEDBACK</h2></CENTER>
+    <hr>
+    <center>
+        <form action="backend.php">
+            <div>
+                <h4>Name</h4>
+                <label for="name"></label>
+                <input type="text" name="myname" required autofocus id="name">
+            </div>
+            <div>
+                <h4>Email</h4>
+                <label for="email"></label>
+                <input type="email" name="myemail" id="email">
+            </div>
+            <div>
+                <h4>Phone Number</h4>
+                <label for="phonenumber"></label>
+                <input type="number" name="myphonenumber" id="phonenumber">
+            </div>
+            <div>
+                <h4>Location you Visited:</h4>
+                <label for="location"></label>
+                <input type="text" name="mylocation" id="location">
+            </div>
+            <div>
+                <h4>Day Visited</h4>
+                <label for="dayvisited"></label>
+                <input type="datetime-local" name="myvisitedday" id="dayvisited">
+            </div>
+            <div>
+                <h4>Food Quality</h4>
+                <label for="excellent">Excellent</label>
+                <input type="radio" name="ourquality" id="excellent">
+                <label for="good">Good</label> 
+                <input type="radio" name="ourquality" id="good">
+                <label for="average">Average</label> 
+                <input type="radio" name="ourquality" id="average">
+                <label for="dissatisfied">Dissatisfied</label> 
+                <input type="radio" name="ourquality" id="dissatisfied">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <br>
+                <br>
+                <input type="reset" value="Reset">
+            </div>
+            <br>
+            
+        </form>
+    </center>
+</body>
+</html>

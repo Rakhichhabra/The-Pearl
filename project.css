@@ -1,0 +1,8 @@
+.zoom{transition: transform .2s;}
+.zoom:hover{transform: scale(1.3);}
+.links{border-radius:10px;}
+.links:hover{background-color:aqua;}
+a{
+    text-decoration: none;
+    color:black
+}
